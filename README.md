@@ -4,7 +4,7 @@ En este repositorio reúno apuntes, ejercicios (resueltos y abiertos) y proyecto
 
 ## 📂 Contenido
 
-- `Topologia/`: apuntes y ejercicios.
+- `topologia/`: apuntes y ejercicios.
 
 ## ⚙️ Tecnologías usadas
 
