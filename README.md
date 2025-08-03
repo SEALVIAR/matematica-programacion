@@ -1,2 +1,17 @@
-# matematica-programacion
-En este repositorio recopilo material académico y personal que combina matemáticas y programación. Incluye apuntes de clase, ejercicios (resueltos y abiertos), diversos proyectos desarrollados a lo largo de mi carrera universitaria. Es un espacio de exploración, aprendizaje y experimentación que refleja mi interés por la ciencia y la computación.
+# Matemática y Programación
+
+En este repositorio reúno apuntes, ejercicios (resueltos y abiertos) y proyectos que combinan matemáticas y programación, desarrollados a lo largo de mi formación universitaria. Es un espacio personal de estudio, práctica y exploración.
+
+## 📂 Contenido
+
+- `Topologia/`: apuntes y ejercicios.
+
+## ⚙️ Tecnologías usadas
+
+- Python (NumPy, Matplotlib, Scikit-learn, etc.)
+- Jupyter Notebooks
+- LaTeX
+
+---
+
+> Este repositorio está en constante construcción. Algunas secciones pueden estar incompletas o abiertas a mejora.
