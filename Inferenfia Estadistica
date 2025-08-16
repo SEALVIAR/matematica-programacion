@@ -1,4 +1,0 @@
-#Cargamos el archivo con los datos
-ruta_datos = '/content/drive/MyDrive/Estudio/Materias/9- SEMESTRE IV/Inferencia/Proyecto/Encuesta.xlsx'
-
-DATASET = pd.read_excel(ruta_datos)
