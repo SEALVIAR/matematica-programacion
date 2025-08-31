@@ -1,0 +1,94 @@
+\documentclass[12pt,letterpaper]{article}
+
+% -------------------- Idioma y codificación --------------------
+\usepackage[spanish, es-nodecimaldot]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% -------------------- Matemáticas y diagramas --------------------
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{bm}
+\usepackage{tikz-cd} % diagramas conmutativos (opcional)
+
+% -------------------- Geometría de página --------------------
+\usepackage{geometry}
+\geometry{margin=2.5cm, includeheadfoot, headheight=17pt, headsep=12pt, footskip=14pt}
+
+% -------------------- Colores, cajas y estilo --------------------
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\tcbuselibrary{theorems, breakable, skins}
+
+% -------------------- Listas, tablas e imágenes --------------------
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+% -------------------- Hipervínculos y referencias cruzadas --------------------
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  citecolor=blue!60!black,
+  urlcolor=blue!60!black,
+  pdftitle={Breve historia de la topología algebraica — Resumen},
+  pdfauthor={},
+  pdfsubject={Resumen y guía de estudio},
+  pdfkeywords={topología algebraica, homotopía, homología, K-teoría, espectros}
+}
+\usepackage[nameinlink,capitalize]{cleveref}
+
+% -------------------- Encabezado y pie --------------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Breve historia de la topología algebraica}
+\rhead{\thepage}
+\cfoot{}
+
+% -------------------- Estilos de teoremas (opcional) --------------------
+\newtcbtheorem[number within=section]{definicion}{Definición}%
+{enhanced, breakable, colback=blue!2, colframe=blue!50!black, fonttitle=\bfseries, coltitle=black,
+  attach boxed title to top left={xshift=1ex,yshift*=-\tcboxedtitleheight/2},
+  boxed title style={colback=blue!15, colframe=blue!50!black, sharp corners}}{def}
+
+\newtcbtheorem[number within=section]{teorema}{Teorema}%
+{enhanced, breakable, colback=green!2, colframe=green!50!black, fonttitle=\bfseries, coltitle=black,
+  attach boxed title to top left={xshift=1ex,yshift*=-\tcboxedtitleheight/2},
+  boxed title style={colback=green!15, colframe=green!50!black, sharp corners}}{thm}
+
+\newtcbtheorem[number within=section]{proposicion}{Proposición}%
+{enhanced, breakable, colback=orange!2, colframe=orange!70!black, fonttitle=\bfseries, coltitle=black,
+  attach boxed title to top left={xshift=1ex,yshift*=-\tcboxedtitleheight/2},
+  boxed title style={colback=orange!15, colframe=orange!70!black, sharp corners}}{prop}
+
+% -------------------- Comandos útiles --------------------
+\newcommand{\termino}[1]{\textsc{#1}}
+\newcommand{\azul}[1]{\textcolor{blue!70!black}{#1}}
+\newcommand{\nota}[1]{\begin{tcolorbox}[colback=yellow!10,colframe=yellow!50!black,title=Nota]#1\end{tcolorbox}}
+
+% Cronología (estilo descripción con sangría uniforme)
+\newenvironment{cronologia}{%
+  \begin{description}[leftmargin=2.5cm, style=nextline, labelsep=1.2em, font=\bfseries]}{%
+  \end{description}}
+
+% -------------------- Datos de portada --------------------
+\title{\vspace{-1.5cm}\textbf{Breve historia de la topología algebraica}\\[4pt]
+\large Resumen}
+\author{Sergio Alejandro Villada Arias} % <-- cámbialo si deseas
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Panorama general}
+Las bases y primeros descubrimientos más profundos en la Topología Algebraica fueron dados por H. Poincaré con los conceptos de homotopía, grupo fundamental y grupo de homología los cuales surgieron en el intento de clasificar superficies algebraicas y llevaron a la creación de nuevas áreas cómo la teoría de categorías, el álgebra homológica entre otras. Los conceptos de homotopía y grupo fundamental surgieron hablando de curvas que se forman en otras, mientras que el de homología surgió estudiando las curvas que delimitan un espacio más grande.
+
+El problema de la topología algebraica consiste en cómo asignar a estructuras algebraicas un espacio topológico y a los homeomorfismos la estructura correspondiente de manera funtorial. En esta área se busca analizar las propiedades e invariantes topológicos como la característica de Euler en espacios homotopicamente equivalentes.
+
+\section*{Poincaré y su conjetura}
+
+\end{document}
