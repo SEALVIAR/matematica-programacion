@@ -85,10 +85,42 @@
 \maketitle
 
 \section*{Panorama general}
-Las bases y primeros descubrimientos más profundos en la Topología Algebraica fueron dados por H. Poincaré con los conceptos de homotopía, grupo fundamental y grupo de homología los cuales surgieron en el intento de clasificar superficies algebraicas y llevaron a la creación de nuevas áreas cómo la teoría de categorías, el álgebra homológica entre otras. Los conceptos de homotopía y grupo fundamental surgieron hablando de curvas que se forman en otras, mientras que el de homología surgió estudiando las curvas que delimitan un espacio más grande.
+Las bases y primeros descubrimientos más profundos en la Topología Algebraica fueron dados por H. Poincaré con los conceptos de homotopía, grupo fundamental y grupo de homología los cuales surgieron en el intento de clasificar superficies algebraicas y llevaron a la creación de nuevas áreas cómo la teoría de categorías, el álgebra homológica entre otras. Los conceptos de homotopía y grupo fundamental surgieron hablando de curvas que se forman en otras, mientras que el de homología surgió estudiando las curvas que delimitan un espacio más grande.\\
 
-El problema de la topología algebraica consiste en cómo asignar a estructuras algebraicas un espacio topológico y a los homeomorfismos la estructura correspondiente de manera funtorial. En esta área se busca analizar las propiedades e invariantes topológicos como la característica de Euler en espacios homotopicamente equivalentes.
+El problema de la topología algebraica consiste en cómo asignar a estructuras algebraicas un espacio topológico y a los homeomorfismos la estructura correspondiente de manera functorial. En esta área se busca analizar las propiedades e invariantes topológicos como la característica de Euler en espacios homotopicamente equivalentes.
 
 \section*{Poincaré y su conjetura}
+El francés H. Poincaré en su trabajo ``Analysis situs'' organizó el área de la topología algebraica aunque esta no empezaría a llamar la atención de los matemáticos sino desde el año 1920, teniendo el siglo XX cómo el más grande para su desarrollo, está área alterna entre topología y álgebra. \\
 
+Poincaré hablaba de dos geometrías, a está área llegó a nombrarla como la tercera. Aquí dos figuras son equivalentes si podemos pasar de una a la otra por medio de transformaciones continuas, así una esfera es equivalente a una elipse y una curva cerrada no es equivalente a una linea recta.\\
+
+El concepto de grupo fundamental conllevo a una transición desde la topología al álgebra, asignando a una estructura algebraica el conjunto de las clases de homotopía de ciclos de forma functorial. El grupo fundamental es un invariante muy útil de la topología algebraica y es el primero de una serie de invariantes $\pi_n$ que se asocian a un espacio topológico. \\
+
+En 1904 H. Poincaré propuso la conjetura que plantea si una variedad compacta n-dimensional conexa que tiene los mismos
+grupos de homología que $S_n$ es homeomorfa a $S_n$. No es difícil demostrar que la conjetura es cierta para $n = 2$; M. Freedman, Christopher Zeeman, John R. Stallings, Stephen Smale probaron la conjetura para $n=4, n=5, n=6, n\geq 7$, en $1994$ Grigori Yakovlevich Perelman probó el caso que más tiempo tomo, el de $n=3$. 
+
+\section*{Primeros desarrollos de la teoría de la homotopía}
+El concepto de homotopía presenta la formulación de transisiones continuas entre configuraciones geométricas e intenta medir los grados de conectividad usando los grupos de homología y homotopía. \\
+
+Se considera el teorema de la curva de Jordan cómo uno de los mayores avances en el área, este fue dado por C. Jordan en 1982 y probado rigurosamente por Oswald Veblen en 1905. La importancia de la homotopía fue descubierta con los mapas de Hopf $p:S^{2n-1}\rightarrow S^n$ para $n=2,4,8$, propuestos por H. Hopf y que sirvieron para estudiar grupos de homotopía no triviales de esferas.\\
+
+Algunas herramientas de la geometría analitíca son requeridas para el desarrollo de está área, tales como los complejos, los simplejos, los mapas simpliciales, la triangulación entre otras. Los complejos simpliciales introducidos por J.W. Alexander son útiles para calcular grupos fundamentales de espacios compactos y estudiar las variedades. \\
+
+El estudio de la homotopía empezó sistemáticamente en el trabajo de L.E.J. Brouwer quién dió los primeros pasos para conectar los grupos de homología y homotopía de ciertos espacios, mostrando que dos funciones continuas en una esfera bidimensional pueden deformase una en la otra si y solo si tienen el mismo grado, intuitivamente el grado se refiere a cuántas veces la esfera dominio envuelve a la esfera rango y probó que este es un invariante homotópico, luego Hopf lo generalizaría. Brouwer también aportó la invarianza topológica de $\mathbb{R}^n$, el teorema del punto fijo de Brouwer y el teorema de la aproximación simplicial, además aportó una clasificación completa de las funciones entre politopos n-dimensionales y la esfera $S^n$. \\ 
+
+W. Hurewicz generalizó el grupo fundamental introduciendo los grupos de homotopía mayores $\pi_n$ usando estrutctura de grupo. Mostró que $\pi_n(X)$ es abeliano para $n\geq 2$, también afirmó que para un par simplicial $(K,L)$ si $\pi_r(K,L)=0$ para $0\leq r<n$ con $n\geq 2$ entonces $\pi_n(K,L)\rightarrow H_n(K,L)$ es un isomorfismo mostrando la relación entre la homología y la homotopía. \\
+
+H. Freudenthal introduce la función suspensión y prueba su teorema de suspensión, haciendo de la homotopía de las esferas un eje central. J.H.C. Whitehead introdujo el concepto de homotopía simple que se relaciona con la K-algebra. K. Borsuk mostró que el p-esimo grupo de homotopia es abeliano si $p>\frac{n+1}{2}$. Spanier muestra que en compactos la cohomotopía satisface los axiomas de Eilenberg–Steenrod para la teoría de la cohomología. 
+
+\section*{Teoría de categorías y CW - complejos}
+La idea de la teoría de categorías nació a través del campo de la topología algebraica, la más sencilla realización de esta idea es el grupo fundamental. Muchos conceptos de la topología algebraica se explican haciendo uso de la teoria de categorias. Los funtores adjuntos, los de representación, los de abenalización entre otros son funtores importantes en el esutdio de la topología algebraica. \\
+
+J.H.C. Whitehead construyó la categoría que hoy llamamos cómo los CW-complejos el cuál es una generalización del concepto de poliedros, estos forman una amplia clase de espacios topológicos para el estudio de la topología algebraica, donde una equivalencia debil es necesariamente una equivalencia homotópica, además estos cargan con propiedades más flexibles que los complejos simpliciales. Los complejos CW propociornan gran información, por ejemplo el teorema de Whitehead que si una función continua $f:X\rightarrow Y$ entre complejos CW conectados induce isomorfismos $f_*:\pi_n(\rightarrow \pi_n(Y)$ entonces $f$ es una equivalencia de homotopía. Whitehead estableció un teorema que afirma que dado un espacio topológico $X$ existe un complejo CW $K$ y una equivalencia homotopica débil ente $X$ y $K$.
+
+\section*{Primeros desarrollos de la teoría de la homología}
+Para inagurar la toería de la homología Poincaré inicio con un objeto geométrico dado por dado por datos combinatorios (complejos simpliciales) asi el álgebra lineal y la relación de las fronteras lleva a la construcción de los grupos de homología simplicial, usando estas herramientas Poincaré definió los números de Betti y los números de torsión los cuales son invariantes numericos que caracterizan los grupos de homología basado en el grupo de los coeficientes enteros. \\
+
+Existen dos direcciones de la generalización de homología simplicial dada por Poincaré, la de complejos a espacios más generales dónde los grupos de homología no los caracterizan variantes numéricos y los del grupo $\mathbb{Z}$ a grupos abelianos. Otras teorías de homologías fueron construidas, cómo la de los grupos de homología para espacios metricos compactos introducida por L. Vietoris, la para compactos Huasdorff introducida por E.Cech, los grupos de homología singular dados por S. Lefschitz y los grupos de homología singular para complejos CW. \\
+
+La cohomología es el dual de la homología y su origen está dado en el teorema de la dualidad dado por S. Lefschitz, Alexander dió la primera definición formal de grupos de cohomología en la conferencia de Moscú.
 \end{document}
